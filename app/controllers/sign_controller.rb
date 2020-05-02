@@ -4,4 +4,7 @@ class SignController < ApplicationController
 
   def sign_up
   end
+
+  def forgot_password
+  end
 end

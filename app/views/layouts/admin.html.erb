@@ -13,11 +13,14 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag "sb-admin-2.min" %>
+    <%= stylesheet_link_tag "dataTables.bootstrap4.min.css" %>
+
+
 
   </head>
   <body>
     <%= render 'shared/nav-admin'%>
     <%= yield %>
-    
+    <%= render 'shared/footer-admin'%>
   </body>
 </html>

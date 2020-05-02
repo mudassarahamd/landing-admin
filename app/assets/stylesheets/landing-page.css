@@ -29,7 +29,7 @@ header.masthead {
 
 header.masthead .overlay {
   position: absolute;
-  background-image: url("https://www.imgbase.info/images/safe-wallpapers/photography/miscellaneous/56285_miscellaneous_calm_lake.jpg");
+  /* background-image: url("https://www.imgbase.info/images/safe-wallpapers/photography/miscellaneous/56285_miscellaneous_calm_lake.jpg"); */
   height: 100%;
   width: 100%;
   top: 0;
